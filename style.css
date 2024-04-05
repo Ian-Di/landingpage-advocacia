@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #080705;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.titles{
+    display: flex;
+    justify-content: left;
+    padding: 100px 0px 0px 50px;
+
+    font-size: 4vh;
+    color: #FFF;
+}
+
+.bottom a{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
+    text-decoration: none;
+    background-color: greenyellow;
+    color: #FFF;
+}
+
+.in-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+    gap: 10rem;
+    color: white;
+    font-size: 2vh;
+}
+
+
+.list-nav{
+    display: flex;
+    gap: 30px;
+
+    align-items: center;
+}
+
+.list-nav a{
+    text-decoration: none;
+    font-size: 2.7vh;
+    color: #FFF;
+}
+
+.list-nav .bottom a{
+    background-color: greenyellow;
+    padding: 3px;
+    font-size: 2vh;
+}
+
+
+.list-nav a:hover{
+    background-color: #FFF;
+    color: #080705;
+    padding: 5px;
+}
+
+.header{
+    background-image: url(./assets/tingey-injury-law-firm-nSpj-Z12lX0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    color: white;
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+
+    font-size: 4vh;
+}
+
+
+.text-header h5{
+    font-size: 4vh;
+    
+}
+
+.cards-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    
+    padding: 200px;
+    gap: 50px;
+}
+
+.cards-area .card{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    
+    border-radius: 10px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.cards-area h2{
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.sobre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+    gap: 200px 0px;
+
+    
+
+    background-image: url(./assets/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+    color: #FFF;
+}
+
+.sobre-img{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-img img{
+    height: 70vh;
+}
+
+.text-sobre .text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-sobre{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+.feedback{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+    padding: 100px 50px 200px 50px;
+    gap: 50px;
+    color: #FFF;
+}
+
+.card-fdb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #FFF;
+    color: #080705;
+}
+
+.card-fdb h5{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+}
+
+.card-fdb h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-fdb img{
+    border-radius: 20px;
+    width: 25vh;
+}
+
+
+.contact-me{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    align-items: center;
+
+    background-color:  #080705;
+    padding: 40px;
+    color: #FFF;
+}
+
+.cards-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-contact{
+    display: flex;
+    align-items: center;
+
+    padding:10px;
+    gap: 20px;
+
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.card-contact img{
+    height: 60px;
+}
+
+.card-contact:hover{
+    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.376);
+    backdrop-filter: blur(10px);
+    border: none;
+}
