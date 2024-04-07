@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: white;
-    color: #080705;
+    background-color: #1b1b1b;
+    color: #fefefa;
 }
 
 html{
@@ -23,25 +23,40 @@ html{
     
 }
 
+
+.bottom img{
+    color: #FFF;
+    height: 6vh;
+    padding-right: 20px;
+}
+
 .bottom a{
     display: flex;
     justify-content: center;
-    padding: 15px;
+    align-items: center;
+    padding: 10px;
 
     text-decoration: none;
-    background-color: greenyellow;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 30px;
 }
 
 .in-nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     
     gap: 10rem;
     font-size: 2vh;
+    background-color: #080705;
 }
 
+
+.logo img{
+    height: 5vh;
+}
 
 .list-nav{
     display: flex;
@@ -57,25 +72,16 @@ html{
 }
 
 .list-nav a:hover{
-    background-color: #080705;
+    color: #080705;
+    background-color: white;
     padding: 5px;
-}
-
-.header .bottom a{
-    background-color: greenyellow;
-    padding: 3px;
-    font-size: 3vh;
-}
-
-.header .bottom a:hover{
-    background-color: #FFF;
 }
 
 .header{
     background-image: url(./assets/romain-dancre-doplSDELX7E-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    height: 780px;
+    height: 700px;
     color: #FFF;
 }
 
@@ -84,11 +90,40 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 500px;
+    gap: 20px;
 
     font-size: 4vh;
 }
 
+.cards-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-contact{
+    display: flex;
+    align-items: center;
+
+    padding:10px;
+    gap: 20px;
+
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.card-contact img{
+    height: 30px;
+}
+
+.card-contact:hover{
+    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.376);
+    backdrop-filter: blur(10px);
+    border: none;
+}
 
 .cards-area{
     display: grid;
@@ -109,6 +144,7 @@ html{
     background-color: #FFF;
     border: 2px solid black;
     text-align: center;
+    color: #080705;
 }
 
 .cards-area h2{
@@ -122,15 +158,11 @@ html{
     align-items: center;
     justify-content: center;
     padding: 100px 200px;
-    gap: 200px 0px;
+    gap: 300px 0px;
 
-    
-
-    background-image: url(./assets/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg);
-    background-position: center;
+    background-image:url(./assets/artwork.png);
     background-size: cover;
-
-    color: #FFF;
+    
 }
 
 .sobre-img{
@@ -155,12 +187,14 @@ html{
     gap: 20px;
 }
 
+
+
 .feedback{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
 
-    padding: 100px 50px 200px 50px;
+    padding: 100px 100px;
     gap: 50px;
     color: #FFF;
 }
@@ -172,9 +206,9 @@ html{
     gap: 10px;
     padding: 15px;
 
-    border: 2px solid white;
+    border: 2px solid #ffffff0c;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.084);
     border-radius: 15px;
-    background-color: #FFF;
     color: #FFF;
     background-color: #080705;
 }
@@ -213,44 +247,14 @@ html{
     gap: 30px;
 }
 
-.contact-me{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
+.footer{
+    display: flex;
+    justify-content: center;
     align-items: center;
 
     background-color:  #080705;
     padding: 40px;
     color: #FFF;
-}
-
-.cards-c{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card-contact{
-    display: flex;
-    align-items: center;
-
-    padding:10px;
-    gap: 20px;
-
-    border: 2px solid #FFF;
-    border-radius: 50%;
-}
-
-.card-contact img{
-    height: 30px;
-}
-
-.card-contact:hover{
-    background-color: #FFF;
-    background-color: rgba(255, 255, 255, 0.376);
-    backdrop-filter: blur(10px);
-    border: none;
 }
 
 ::-webkit-scrollbar{
