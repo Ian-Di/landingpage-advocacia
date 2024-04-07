@@ -259,7 +259,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(83, 50, 150);
+    background-color: #080705;
     width: 6px;
     height: 6px;
     border-radius: 10px;
