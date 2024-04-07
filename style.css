@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: #080705;
+    background-color: white;
+    color: #080705;
 }
 
 html{
@@ -19,7 +20,7 @@ html{
     padding: 100px 0px 0px 50px;
 
     font-size: 4vh;
-    color: #FFF;
+    
 }
 
 .bottom a{
@@ -29,7 +30,6 @@ html{
 
     text-decoration: none;
     background-color: greenyellow;
-    color: #FFF;
 }
 
 .in-nav{
@@ -39,7 +39,6 @@ html{
     padding: 30px;
     
     gap: 10rem;
-    color: white;
     font-size: 2vh;
 }
 
@@ -57,49 +56,46 @@ html{
     color: #FFF;
 }
 
-.list-nav .bottom a{
-    background-color: greenyellow;
-    padding: 3px;
-    font-size: 2vh;
-}
-
-
 .list-nav a:hover{
-    background-color: #FFF;
-    color: #080705;
+    background-color: #080705;
     padding: 5px;
 }
 
+.header .bottom a{
+    background-color: greenyellow;
+    padding: 3px;
+    font-size: 3vh;
+}
+
+.header .bottom a:hover{
+    background-color: #FFF;
+}
+
 .header{
-    background-image: url(./assets/tingey-injury-law-firm-nSpj-Z12lX0-unsplash.jpg);
+    background-image: url(./assets/romain-dancre-doplSDELX7E-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    height: 750px;
-    color: white;
+    height: 780px;
+    color: #FFF;
 }
 
 .text-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    height: 500px;
+    align-items: center;
+    height: 600px;
 
     font-size: 4vh;
 }
 
-
-.text-header h5{
-    font-size: 4vh;
-    
-}
 
 .cards-area{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     
-    padding: 200px;
+    padding: 100px 200px;
     gap: 50px;
 }
 
@@ -111,6 +107,7 @@ html{
     
     border-radius: 10px;
     background-color: #FFF;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -178,25 +175,43 @@ html{
     border: 2px solid white;
     border-radius: 15px;
     background-color: #FFF;
-    color: #080705;
+    color: #FFF;
+    background-color: #080705;
 }
 
 .card-fdb h5{
     display: flex;
     justify-content: center;
-    font-size: 4vh;
+    font-size: 2vh;
+    text-align: center;
 }
 
 .card-fdb h3{
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    font-size: 3.5vh;
 }
 
-.card-fdb img{
+.card-fdb img{ 
+    display: flex;
     border-radius: 20px;
     width: 25vh;
 }
 
+.loc-maps{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+
+    padding: 100px 160px;
+    gap: 50px;
+}
+
+.text-loc{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 .contact-me{
     display: grid;
@@ -228,7 +243,7 @@ html{
 }
 
 .card-contact img{
-    height: 60px;
+    height: 30px;
 }
 
 .card-contact:hover{
@@ -236,4 +251,16 @@ html{
     background-color: rgba(255, 255, 255, 0.376);
     backdrop-filter: blur(10px);
     border: none;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(83, 50, 150);
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
 }
