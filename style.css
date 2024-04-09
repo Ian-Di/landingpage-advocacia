@@ -130,8 +130,8 @@ html{
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     
-    padding: 100px 200px;
-    gap: 50px;
+    padding: 100px 100px;
+    gap: 20px;
 }
 
 .cards-area .card{
@@ -143,13 +143,19 @@ html{
     border-radius: 10px;
     background-color: #FFF;
     border: 2px solid black;
-    text-align: center;
+
+    font-size: 2.5vh;
     color: #080705;
 }
 
-.cards-area h2{
-    background-color: #FFF;
-    padding: 10px;
+.card img{
+    height: 6vh;
+}
+
+.text-ca{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .sobre{
@@ -187,7 +193,11 @@ html{
     gap: 20px;
 }
 
-
+.list-sobre ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .feedback{
     display: grid;
@@ -195,7 +205,7 @@ html{
     justify-content: center;
 
     padding: 100px 100px;
-    gap: 50px;
+    gap: 60px;
     color: #FFF;
 }
 
@@ -204,13 +214,13 @@ html{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 15px;
+    padding: 20px 10px;
 
     border: 2px solid #ffffff0c;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.084);
     border-radius: 15px;
-    color: #FFF;
-    background-color: #080705;
+    color: #080705;
+    background-color: #fefefa;
 }
 
 .card-fdb h5{
@@ -228,7 +238,8 @@ html{
 .card-fdb img{ 
     display: flex;
     border-radius: 20px;
-    width: 25vh;
+    width: 40vh;
+   
 }
 
 .loc-maps{
@@ -244,7 +255,17 @@ html{
 .text-loc{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
+}
+
+.card-loc{
+    display: grid;
+    gap: 10px;
+}
+
+.card-loc img{
+    height: 5vh;
+    color: #FFF;
 }
 
 .footer{
@@ -263,7 +284,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #080705;
+    background-color: #fefefa;
     width: 6px;
     height: 6px;
     border-radius: 10px;
