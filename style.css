@@ -1,18 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Poppins";
 }
 
-body{
-    background-color: #1b1b1b;
-    color: #fefefa;
+body{ 
+    color: #080705;
 }
 
 html{
     scroll-behavior: smooth;
 }
-
 
 .titles{
     display: flex;
@@ -20,9 +18,7 @@ html{
     padding: 100px 0px 0px 50px;
 
     font-size: 4vh;
-    
 }
-
 
 .bottom img{
     color: #FFF;
@@ -44,23 +40,17 @@ html{
 
 .in-nav{
     display: flex;
-    justify-content: center;
+    justify-content:right;
     align-items: center;
-    padding: 20px;
+    padding: 20px 100px;
     
-    gap: 10rem;
     font-size: 2vh;
     background-color: #080705;
 }
 
-
-.logo img{
-    height: 5vh;
-}
-
 .list-nav{
     display: flex;
-    gap: 30px;
+    gap: 50px;
 
     align-items: center;
 }
@@ -71,74 +61,50 @@ html{
     color: #FFF;
 }
 
-.list-nav a:hover{
-    color: #080705;
-    background-color: white;
-    padding: 5px;
-}
-
 .header{
-    background-image: url(./assets/romain-dancre-doplSDELX7E-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: #080705;
     height: 700px;
     color: #FFF;
+}
+
+.in-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 600px;
+    gap: 40px;
+    padding: 0px 50px;
+
+    text-shadow: 3px 2px black;
+}
+
+.in-header img{
+    height: 12vh;
 }
 
 .text-header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
     gap: 20px;
-
-    font-size: 4vh;
-}
-
-.cards-c{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card-contact{
-    display: flex;
-    align-items: center;
-
-    padding:10px;
-    gap: 20px;
-
-    border: 2px solid #FFF;
-    border-radius: 50%;
-}
-
-.card-contact img{
-    height: 30px;
-}
-
-.card-contact:hover{
-    background-color: #FFF;
-    background-color: rgba(255, 255, 255, 0.376);
-    backdrop-filter: blur(10px);
-    border: none;
+    font-size: 4.5vh;
+    width: 800px;
 }
 
 .cards-area{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
     
     padding: 100px 100px;
-    gap: 20px;
+    gap: 30px 50px;
 }
 
 .cards-area .card{
     display: flex;
-    align-items: center;
+    flex-direction: column;   
+    
     padding: 20px;
-    gap: 20px;
+    gap: 10px;
     
     border-radius: 10px;
     background-color: #FFF;
@@ -149,7 +115,7 @@ html{
 }
 
 .card img{
-    height: 6vh;
+    height: 8vh;
 }
 
 .text-ca{
@@ -161,19 +127,12 @@ html{
 .sobre{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
     align-items: center;
     justify-content: center;
+
     padding: 100px 200px;
-    gap: 300px 0px;
-
-    background-image:url(./assets/artwork.png);
-    background-size: cover;
-    
-}
-
-.sobre-img{
-    display: flex;
-    justify-content: center;
+    gap: 300px 60px;
 }
 
 .sobre-img img{
@@ -239,7 +198,6 @@ html{
     display: flex;
     border-radius: 20px;
     width: 40vh;
-   
 }
 
 .loc-maps{
@@ -275,7 +233,6 @@ html{
 
     background-color:  #080705;
     padding: 40px;
-    color: #FFF;
 }
 
 ::-webkit-scrollbar{
@@ -284,7 +241,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #fefefa;
+    background-color: #080705;
     width: 6px;
     height: 6px;
     border-radius: 10px;
