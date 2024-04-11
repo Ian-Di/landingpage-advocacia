@@ -68,34 +68,38 @@ html{
 }
 
 .in-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
 
     height: 600px;
-    gap: 40px;
+    gap: 0px;
     padding: 0px 50px;
 
     text-shadow: 3px 2px black;
 }
 
-.in-header img{
-    height: 12vh;
+.text-header .logo img{
+    height: 10vh;
 }
 
 .text-header{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 4.5vh;
-    width: 800px;
+    font-size: 5vh;
+}
+
+.text-header p{
+    font-size: 3vh;
 }
 
 .cards-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
-    padding: 100px 100px;
+    padding: 100px 250px;
     gap: 30px 50px;
 }
 
@@ -106,7 +110,7 @@ html{
     padding: 20px;
     gap: 10px;
     
-    border-radius: 10px;
+    border-radius: 20px 20px 20px 50px;
     background-color: #FFF;
     border: 2px solid black;
 
@@ -124,6 +128,20 @@ html{
     gap: 10px;
 }
 
+.quest-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+
+    text-align: center;
+    font-size: 4vh;
+    gap: 20px;
+
+    background-color: #080705;
+    color: #FFF;
+}
+
 .sobre{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -132,7 +150,7 @@ html{
     justify-content: center;
 
     padding: 100px 200px;
-    gap: 300px 60px;
+    gap: 130px 60px;
 }
 
 .sobre-img img{
@@ -165,7 +183,9 @@ html{
 
     padding: 100px 100px;
     gap: 60px;
+
     color: #FFF;
+    background-color: #080705;
 }
 
 .card-fdb{
@@ -175,11 +195,9 @@ html{
     gap: 10px;
     padding: 20px 10px;
 
-    border: 2px solid #ffffff0c;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.084);
+    border: 2px solid #FFF;
     border-radius: 15px;
-    color: #080705;
-    background-color: #fefefa;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.084);
 }
 
 .card-fdb h5{
@@ -223,7 +241,10 @@ html{
 
 .card-loc img{
     height: 5vh;
+    padding: 10px;
     color: #FFF;
+    background-color: black;
+    border-radius:5px;
 }
 
 .footer{
