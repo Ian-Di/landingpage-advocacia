@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
-    font-family: "Poppins";
+    padding: 0; 
+    font-family: "Poppins", sans-serif;
 }
 
 body{ 
@@ -12,18 +12,19 @@ html{
     scroll-behavior: smooth;
 }
 
+.color-1{
+    background-color: black;
+}
+
+.color-1 .titles{
+    color: #FFF;
+}
+
 .titles{
     display: flex;
     justify-content: left;
-    padding: 100px 0px 0px 50px;
-
+    padding: 100px 0px 0px 200px;
     font-size: 4vh;
-}
-
-.bottom img{
-    color: #FFF;
-    height: 6vh;
-    padding-right: 20px;
 }
 
 .bottom a{
@@ -33,9 +34,17 @@ html{
     padding: 10px;
 
     text-decoration: none;
-    background-color: #25d366;
+    font-size: 2vh;
+
+    background-color: black;
     color: #FFF;
-    border-radius: 30px;
+    border-radius: 2px;
+}
+
+.bottom img{
+    color: #FFF;
+    height: 6vh;
+    padding-right: 20px;
 }
 
 .in-nav{
@@ -61,45 +70,43 @@ html{
     color: #FFF;
 }
 
-.header{
-    background-color: #080705;
-    height: 700px;
-    color: #FFF;
-}
-
 .in-header{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-items: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 
-    height: 600px;
-    gap: 0px;
-    padding: 0px 50px;
+    width: 900px;
+    height: 550px;
 
-    text-shadow: 3px 2px black;
+    padding: 60px 130px;
+    gap: 20px;
 }
 
 .text-header .logo img{
     height: 10vh;
+    background-color: #080705;
+    padding: 20px;
 }
 
 .text-header{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 8px;
+
     font-size: 5vh;
+    color: #000000;
 }
 
 .text-header p{
-    font-size: 3vh;
+    font-size: 2.4vh;
 }
 
 .cards-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
-    padding: 100px 250px;
+    padding: 90px 240px;
     gap: 30px 50px;
 }
 
@@ -108,18 +115,20 @@ html{
     flex-direction: column;   
     
     padding: 20px;
-    gap: 10px;
+    gap: 8px;
     
     border-radius: 20px 20px 20px 50px;
-    background-color: #FFF;
-    border: 2px solid black;
+    border: 2px solid white;
 
     font-size: 2.5vh;
-    color: #080705;
+    color: white;
 }
 
 .card img{
     height: 8vh;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .text-ca{
@@ -138,8 +147,8 @@ html{
     font-size: 4vh;
     gap: 20px;
 
-    background-color: #080705;
-    color: #FFF;
+    background-color: #FFF;
+    color: black;
 }
 
 .sobre{
@@ -151,6 +160,7 @@ html{
 
     padding: 100px 200px;
     gap: 130px 60px;
+    color: #FFF;
 }
 
 .sobre-img img{
@@ -163,17 +173,15 @@ html{
     gap: 30px;
 }
 
-.text-sobre{
-    display: flex;
-    flex-direction: column;
-    
-    gap: 20px;
-}
-
 .list-sobre ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.sobre .bottom a{
+    background-color: rgb(185, 185, 185);
+    color: black;
 }
 
 .feedback{
@@ -184,8 +192,7 @@ html{
     padding: 100px 100px;
     gap: 60px;
 
-    color: #FFF;
-    background-color: #080705;
+    color: #000000;
 }
 
 .card-fdb{
@@ -197,7 +204,8 @@ html{
 
     border: 2px solid #FFF;
     border-radius: 15px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.084);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.377);
+    background-color: #f9f7f7;
 }
 
 .card-fdb h5{
@@ -232,6 +240,7 @@ html{
     display: flex;
     flex-direction: column;
     gap: 60px;
+    color: #FFF;
 }
 
 .card-loc{
@@ -242,18 +251,24 @@ html{
 .card-loc img{
     height: 5vh;
     padding: 10px;
-    color: #FFF;
     background-color: black;
     border-radius:5px;
 }
 
 .footer{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
+    padding: 40px;
 
     background-color:  #080705;
-    padding: 40px;
+    color: #f9f7f7;
+}
+
+.footer a{
+    color: green;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar{
