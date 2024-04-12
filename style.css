@@ -49,12 +49,22 @@ html{
 
 .in-nav{
     display: flex;
-    justify-content:right;
+    justify-content:space-between;
     align-items: center;
     padding: 20px 100px;
     
     font-size: 2vh;
     background-color: #080705;
+}
+
+.card-contact img{
+    height: 8vh;
+}
+
+.card-contact img:hover{
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    border-radius: 20px;
+    padding: 1px;
 }
 
 .list-nav{
@@ -68,6 +78,17 @@ html{
     text-decoration: none;
     font-size: 2.7vh;
     color: #FFF;
+}
+
+.list-nav a:hover{
+    background-color: #f9f7f7;
+    color: #000000;
+    padding: 2px;
+}
+
+.header{
+    background-image: url(./assets/2.png);
+    background-size: cover;
 }
 
 .in-header{
@@ -84,8 +105,7 @@ html{
 }
 
 .text-header .logo img{
-    height: 10vh;
-    background-color: #080705;
+    height: 14vh;
     padding: 20px;
 }
 
