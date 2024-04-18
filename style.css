@@ -57,8 +57,12 @@ html{
     background-color: #080705;
 }
 
-.card-contact img{
+.nav-bar img{
     height: 8vh;
+}
+
+.burguer{
+    display: none;
 }
 
 .card-contact img:hover{
@@ -132,7 +136,7 @@ html{
 .cards-area .card{
     display: flex;
     flex-direction: column;  
-    height: 300px;
+    height: 420px;
     
     padding: 20px;
     gap: 8px;
@@ -322,24 +326,51 @@ html{
         height: 6vh;
         padding-right: 20px;
     }
-    
+
     .in-nav{
-        padding: 20px ;
+        padding: 20px 40px;
     }
     
-    .card-contact img{
-        height: 5vh;
+    .nav-bar  img{
+        height: 4vh;
     }
-    
+
     .list-nav{
         display: none;
-        gap: 10px;
+    }
+
+    .burguer{
+        display: block;
+    }
+
+    .burguer img:hover{
+        background-color: gray;
+        padding: 2px;
+        border-radius: 50%;
+    }
+
+    #listmob{
+        position: absolute;
+        right: 1px;
+        height: 250px;
+
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        
+        border-radius: 0px 0px 5px 5px;
+
+        background-color: #000000;
     }
     
-    .list-nav a{
-        font-size: 1.5vh;
+    #listmob a{
+        color: #FFF; 
+        text-decoration: none;  
     }
-    
+
     .header{
         background-image: url(./assets/2.png);
         background-size: cover;
@@ -380,6 +411,7 @@ html{
 
     .cards-area .card{
         font-size: 2.2vh;
+        height: 350px;
     }
     
     .quest-area{

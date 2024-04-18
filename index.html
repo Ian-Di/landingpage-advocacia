@@ -15,6 +15,17 @@
             <div class="card-contact">
                 <a href=""><img src="./assets/icons8-instagram.svg"></a>  
             </div>
+
+            <div class="burguer">
+                <img src="./assets/icons8-cardápio.svg" onclick="clickMenu()">
+                <div id="listmob">
+                    <a href="#por-que-nos?">Por que nós?</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#feedback">Feedback</a>
+                    <a href="#contatos">Entre em contato</a>
+                </div>
+            </div>    
+
             <div class="list-nav">
                 <a href="#por-que-nos?">Por que nós?</a>
                 <a href="#sobre">Sobre</a>
@@ -270,5 +281,14 @@
             <h4>Copyright © 2024 Todos os Direitos Reservados | <a href="https://www.instagram.com/iaan_di?igsh=MXZjaTdpeDhpcG4xNQ==" target="_blank">< Iann-di ></a></h4>
         </div>
     </div>
+    <script>
+        function clickMenu() {
+           if (listmob.style.display == 'flex'){
+            listmob.style.display = 'none'
+           } else{
+            listmob.style.display = 'flex'
+           }
+        }
+    </script>
 </body>
 </html>
