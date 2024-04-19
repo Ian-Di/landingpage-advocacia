@@ -344,14 +344,14 @@ html{
     }
 
     .burguer img:hover{
-        background-color: gray;
-        padding: 2px;
-        border-radius: 50%;
+        background-color: rgba(128, 128, 128, 0.551);
+
     }
 
     #listmob{
         position: absolute;
-        right: 1px;
+        top: 80px;
+        right: 5px;
         height: 250px;
 
 
@@ -361,9 +361,10 @@ html{
         align-items: center;
         padding: 10px;
         
-        border-radius: 0px 0px 5px 5px;
+        border-radius: 5px;
 
         background-color: #000000;
+        animation: slide 0.5s ease;
     }
     
     #listmob a{
@@ -521,4 +522,13 @@ html{
     width: 6px;
     height: 6px;
     border-radius: 10px;
+}
+
+@keyframes slide {
+    0%, 100% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
