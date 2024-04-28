@@ -252,7 +252,6 @@ html{
 
 .card-fdb img{ 
     display: flex;
-    border-radius: 10px;
     width: 10vh;
 }
 
@@ -271,6 +270,11 @@ html{
     flex-direction: column;
     gap: 60px;
     color: #FFF;
+}
+
+.text-loc a{
+    color: white;
+    text-decoration: none;
 }
 
 .card-loc{
@@ -327,7 +331,12 @@ html{
         padding-right: 20px;
     }
 
+    .card-contact{
+        display: none;
+    }
+
     .in-nav{
+        justify-content: right;
         padding: 20px 40px;
     }
     
@@ -346,6 +355,10 @@ html{
     .burguer img:hover{
         background-color: rgba(128, 128, 128, 0.551);
 
+    }
+
+    #listmob .card-contact{
+        display: block;
     }
 
     #listmob{
@@ -434,7 +447,7 @@ html{
         justify-content: center;
     
         padding: 40px 20px;
-        gap: 20px;
+        gap: 30px;
         color: #FFF;
     }
     
@@ -464,6 +477,10 @@ html{
         gap: 30px;
     }
     
+    .card-fdb img{
+        width: 8vh;
+    }
+    
     .card-fdb h5{
         font-size: 1.5vh;
     }
@@ -485,10 +502,10 @@ html{
     .text-loc{
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 20px;
         font-size: 1vh;
     }
-    
+
     .card-loc{
         display: flex;
         flex-direction: column;
