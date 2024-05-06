@@ -185,13 +185,13 @@ html{
     align-items: center;
     justify-content: center;
 
-    padding: 100px 200px;
-    gap: 130px 60px;
+    padding: 100px 150px;
+    gap: 130px 0px;
     color: #FFF;
 }
 
 .sobre-img img{
-    height: 70vh;
+    height: 60vh;
     border-radius: 15px;
     border: 3px solid white;
 }
@@ -284,6 +284,12 @@ html{
     gap: 10px;
 }
 
+.card-loc-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .card-loc img{
     height: 5vh;
 }
@@ -297,6 +303,10 @@ html{
 
     background-color:  #080705;
     color: #f9f7f7;
+}
+
+.footer img{
+    height: 15vh;
 }
 
 .footer a{
@@ -456,7 +466,7 @@ html{
     .sobre-img img{
         border: 2px solid white;
         border-radius: 10px;
-        height: 45vh;
+        height: 50vh;
     }
     
     .text-sobre{
@@ -517,6 +527,12 @@ html{
         gap: 5px;
     }
     
+    .card-loc-details{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
     .card-loc img{
         height: 5vh;
     }
