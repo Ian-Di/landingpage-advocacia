@@ -569,7 +569,7 @@ html{
     background-color: #080705;
     width: 6px;
     height: 6px;
-    border-radius: 10px;
+    border-radius: 9.9px;
 }
 
 @keyframes slide1 {
