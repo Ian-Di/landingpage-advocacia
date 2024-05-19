@@ -441,13 +441,13 @@ html{
         display:flex;
         flex-direction: column;
         
-        padding: 50px 70px;
+        padding: 50px 40px;
         gap: 30px;
     }
 
     .cards-area .card{
         font-size: 2.2vh;
-        height: 420px;
+        
     }
     
     .quest-area{
