@@ -441,7 +441,7 @@ html{
         display:flex;
         flex-direction: column;
         
-        padding: 50px 40px;
+        padding: 50px 50px;
         gap: 30px;
     }
 
