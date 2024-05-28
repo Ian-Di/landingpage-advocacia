@@ -52,6 +52,11 @@ html{
     background-color: #25d366;
 }
 
+.bottom-mob{
+    display: none;
+}
+
+
 .in-nav{
     display: flex;
     justify-content:space-between;
@@ -335,21 +340,40 @@ html{
         padding: 60px 0px;
         font-size: 3vh;
     }
-    
-    .bottom a{
+
+    .bottom-mob{
         display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-mob a{
+        display: flex;
+        padding: 10px;
         justify-content: center;
         align-items: center;
-        padding: 10px;
     
         text-decoration: none;
         font-size: 2vh;
+
+        background-color: black;
+        color: #FFF;
+        border-radius: 50px;
+        box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
     }
-    
-    .bottom img{
+
+    .bottom-mob img{
         color: #FFF;
         height: 6vh;
         padding-right: 20px;
+    }
+
+    .bottom-mob:hover a{
+        background-color: #25d366;
+    }
+    
+    .bottom a{
+        display: none;
     }
 
     .card-contact{
@@ -483,8 +507,11 @@ html{
         font-size: 2vh;
     }
     
-    .sobre .bottom a{
+    .sobre .bottom-mob a{
+        width: 300px;
+        background-color: #FFF;
         font-size: 2vh;
+        color: #000000;
     }
     
     .sobre .bottom img{
